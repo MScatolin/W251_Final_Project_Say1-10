@@ -25,6 +25,7 @@ Bibliographic Review
    * http://www.robots.ox.ac.uk/~vgg/data/lip_reading/lrw1.html
      * looks promissing, 500 words already classified with 800 to 1000 examples. Need to verifiy if digits are available. Need authorization for usage, which may not be taken in feasible time.
      
-   
+   * https://ibug-avs.eu/
+     * 53 people, 3 different views, normal, whispering and silent speech. Digits and Phrases are avaliable separetely. Native speakers and foreigners. Requested access. Waiting password.
    
  
