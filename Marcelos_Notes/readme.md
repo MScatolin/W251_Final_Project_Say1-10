@@ -28,4 +28,8 @@ Bibliographic Review
    * https://ibug-avs.eu/
      * 53 people, 3 different views, normal, whispering and silent speech. Digits and Phrases are avaliable separetely. Native speakers and foreigners. Requested access. Waiting password.
    
- 
+   * http://153.19.49.27/MODALITY/explore.php
+     * This is our best option so far. they have 42 speakers (17 natives, 18 non-natives) and roughly 2.1 GB.
+     * For each speaker there is a two types of file: one named commands with words spaced by pauses and one with sequences (zipped in different files. Most of the files contains a `.lab` file with timestamps for each word (or sequence) said, 9 audio files (recorded from different mics positioned in the room, and `.mkv` files containing images from two different cameras (positioned lef and right of the face of the subject).
+     * For our use, I will download all "commands" files and split both the videos using the timestamps provided, saving each video to a bucket in ibm_cloud.
+     
