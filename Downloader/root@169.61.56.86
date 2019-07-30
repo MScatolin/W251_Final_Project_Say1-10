@@ -29,14 +29,10 @@ mkdir audios/SEVEN
 mkdir audios/EIGHT
 mkdir audios/NINE
 
-apt update
+apt-get install ffmpeg
 
-apt install ffmpeg
+pip install opencv-python
 
-apt install python3-pip
+pip install pydub
 
-pip3 install opencv-python
-
-pip3 install pydub
-
-pip3 install requests
+pip install requests
