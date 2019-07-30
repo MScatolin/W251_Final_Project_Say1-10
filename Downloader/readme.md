@@ -14,7 +14,7 @@ The videos were originally set as 1920x1080 pixels (in portrait mode) and with 1
 using `h264` encoder. After processing we ended up with 640x360 pixel videos (keeping the original ratio) and still 
 100 fps. Below you will find an example of it:
 
-![Example of videos](./images/recordings_example.png "Example of videos")
+![Example of videos](../images/recordings_example.png "Example of videos")
 
 ## Audio
 
@@ -23,7 +23,7 @@ The files were cropped consistently with the videos, and saved with the same nam
 Note that the dataset contains 9 different audio files collected from different microphones. 
 We decided to go with one single audio file (audio from microphone 2).
 
-![Microphone array set](./images/recording_schema.png "Microphone array set")  
+![Microphone array set](../images/recording_schema.png "Microphone array set")  
 
 ## Hardware
 
