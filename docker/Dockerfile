@@ -1,6 +1,6 @@
 FROM tensorflow:latest
 
-RUN apt update && apt install -y python3-scipy cmake wget libfreetype6-dev
+RUN apt update && apt install -y python3-scipy cmake wget libfreetype6-dev ffmpeg
 
 RUN pip3 install keras==2.2.4 \
                  editdistance==0.3.1 \
@@ -8,7 +8,7 @@ RUN pip3 install keras==2.2.4 \
                  python-dateutil==2.6.0 \
                  Theano==0.9.0 \
                  nltk==3.2.2 \
-                 sk-video==1.1.7
+                 scikit-video==1.1.11
                  
 # install dlib 19.16.0
 # https://devtalk.nvidia.com/default/topic/1049660/jetson-nano/issues-with-dlib-library/post/5336330/#5336330
@@ -24,4 +24,12 @@ RUN wget http://dlib.net/files/dlib-19.16.tar.bz2 && \
     python3 setup.py install  
 
 RUN cd /tmp && \
-    rm -rf dlib*
+    rm -rf dlib* && \
+    rm /usr/bin/python && \
+    ln -s /usr/bin/python3 /usr/bin/python && \
+    alias pip=pip3 && \
+    mkdir /app
+
+WORKDIR /app
+    
+ENV PYTHONPATH=/app

@@ -29,3 +29,10 @@ docker build -t tensorflow -f Dockerfile.dev-tx2-4.2_b158-py3 .
 docker build -t lipnet .
 ```
 
+
+
+### 3. To run the container
+Pull my [LipNet repo](https://github.com/fa-mc/LipNet?organization=fa-mc&organization=fa-mc) if you haven't already.
+```
+docker run --privileged --rm -v $PWD/LipNet:/app -p 6006:6006 -ti lipnet bash
+```
