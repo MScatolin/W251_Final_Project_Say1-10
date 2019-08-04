@@ -5,7 +5,7 @@ dataset contains 231 words separated in commands and sentences, we created a pyt
 commands videos and one of the 9 audios and later we clipped those files saving the parts were digits were spoken.
 
 Extracting the single digits from longer commands allowed us to gather XXX instances of spoken digits by 35 different 
-speakers. The final dataset has XXX GB.
+speakers. The final dataset has 790 MB of videos (5548 files) and 17 MB of audios (2744 files, as expected. See below for detais).
 
 
 ## Video
