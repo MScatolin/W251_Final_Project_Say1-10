@@ -23,7 +23,11 @@ The files were cropped consistently with the videos, and saved with the same nam
 Note that the dataset contains 9 different audio files collected from different microphones. 
 We decided to go with one single audio file (audio from microphone 2).
 
-![Microphone array set](../images/recording_schema.png "Microphone array set")  
+![Microphone array set](../images/recording_schema.png "Microphone array set")
+
+## Converting files for LipNet model:
+
+As we used the LipNet as our base model, we needed to convert the processed dataset to have the same format accepted by that model. This way we used the scrip `MODALITY_to_GRIP_converter.py` to prepare 
 
 ## Hardware
 
