@@ -2,7 +2,7 @@
 
 mkdir full_files
 mkdir full_files/audios
-mkdir full_files/transcritions
+mkdir full_files/transcriptions
 mkdir full_files/videos
 
 mkdir videos
@@ -33,9 +33,11 @@ apt update
 
 apt install ffmpeg
 
+apt install python3
+
 apt install python3-pip
 
-pip3 install opencv-python
+apt install python3-opencv
 
 pip3 install pydub
 
