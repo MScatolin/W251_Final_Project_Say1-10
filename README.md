@@ -38,4 +38,4 @@ Special thanks to:
 * the Multimedia Systems Department of Gdansk University of Technology who publically provided the [MODALITY Corpus](http://www.modality-corpus.org/)
 
 
-#### See the whitepaper and the slide deck in this dicrectory for mor information.
+#### See the whitepaper and the slide deck in this dicrectory for more information.
