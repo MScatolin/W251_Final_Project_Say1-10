@@ -65,6 +65,7 @@ if __name__ == '__main__':
     else:
         video, result = None, ""
 
+    # suppressed video show because we used a virtual machine. No need to see result.
     # if video is not None:
     #     show_video_subtitle(video.face, result)
 
