@@ -27,7 +27,9 @@ We decided to go with one single audio file (audio from microphone 2).
 
 ## Converting files for LipNet model:
 
-As we used the LipNet as our base model, we needed to convert the processed dataset to have the same format accepted by that model. This way we used the scrip `MODALITY_to_GRIP_converter.py` to prepare 
+As we used the LipNet as our base model, we needed to convert the processed dataset to have the same format accepted by that model. This way, we used the script `MODALITY_to_GRID_converter.py` to convert the `.mkv` videos to 640x360 pixels x 75 frames `.mpg` files separated by speakers and with consistent file names with the transcriptions files `.align`.
+
+Finally, inside LipNet directory you will find `scripts/extract_mouth_batch.py` that can do the final file processing to generate folders with 75 images of each frame that will be inputed to the model.
 
 ## Hardware
 
